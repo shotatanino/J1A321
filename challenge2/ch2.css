@@ -5,10 +5,12 @@
 ----------------------------*/
 * {
   box-sizing: border-box;
-  font-family: HGS明朝E;
   margin: 0;
+  font-family: 'Rock 3D', cursive;
 }
 body {
+  background: url(wood.jpg);
+  text-align: center;
   margin: 0;
   padding: 40px;
 }
@@ -25,14 +27,15 @@ header
 ----------------------------*/
 header { margin-bottom: 60px; }
 h1 { margin-bottom: 20px; }
-ul { background: #fff; }
+ul {background: #fff;
+}
 a {
   display: block;
-  color: #196f6a;
+  color: #000;
   text-decoration: none;
   padding: 10px;
 }
-a:hover { background: #e4e3d6; }
+a:hover { background:#f9f8ee; }
 
 /*----------------------------
 main
@@ -52,3 +55,10 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+
+}
+li{flex: 1 1 20%;}
