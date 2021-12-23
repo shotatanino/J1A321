@@ -52,6 +52,10 @@ li {
   margin: 0 auto;
   padding: 0 40px;
 }
+.logo{
+  max-width: 70%;
+  margin: auto;
+}
 
 /*--------------------------------
  見出し
