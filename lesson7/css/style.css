@@ -112,7 +112,7 @@ address {
   padding: 10px;
 }
 .nav-list a {
-  display: block;
+  display: inline-block;
   /* ブロックレベルで扱い、縦並びに表示している */
   color: #fff;
 }
@@ -290,7 +290,15 @@ address {
 @media screen and (min-width: 768px) {
   /* ヘッダー */
   .header {
-    
+    position: relative;
+    padding: 15px 0 0;
+    background-color: #fff;
+  }
+}
+@media screen and (min-width:768px){
+  .header{
+    padding: 0;
+    }
   }
   /* ロゴ */
   .logo {

@@ -190,6 +190,10 @@ li {
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
 }
+.logo{
+  max-width: 50%;
+  margin: auto;
+}
 
 /*--------------------------------
  Works
